@@ -1,1 +1,38 @@
+body {
+  background: #27F5D6;
 
+  strong {
+    color: darkblue;
+  }
+
+  h1 {
+    color: blue;
+    text-align: center;
+
+    span {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    width: 100%;            
+    height: auto;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;     
+  }
+
+  footer {
+    text-align: center;
+
+    strong {
+      color: green;
+    }
+  }
+}
